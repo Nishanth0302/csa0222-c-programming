@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	char c;
+	int x,y,z;
+	printf("enter grade:");
+	scanf("%c",&c);
+	printf("eneter salary:\n");
+	scanf("%d",&x);
+	if(c=='A')
+	y=(x*0.05);
+	if(c=='B')
+	y=(x*0.1);
+	if(x<10000)
+	y=(x*0.02);
+	printf("salary:%d\n",x);
+	printf("bonus:%d\n",y);
+	x+=y;
+	if(x<10000)
+	printf("\n due to saalary is less than 10000 extra bonus is added %d",z);
+	printf("\n total salary:%d\n",x);
+	
+}
